@@ -1,0 +1,7 @@
+conda create --name wradlib pip python=2.7
+conda config --add channels conda-forge
+source activate wradlib
+conda install wradlib
+conda install pyhdf 
+export WRADLIB_DATA=path-to_file/wradlib-data-master
+
